@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.head{
+  text-align: center;
+  color: white;
+ font-size: 2rem;
+}
+#dice{
+  display: flex;
+  justify-content: space-evenly;
+}
+.players{
+
+  margin: 0 35px;
+  height: 223px;
+  opacity: 0.8;
+  background-color: gray;
+  width: 21%;
+  text-align: center;
+  background: url(./assets/images/wins.webp) ;
+  color: rgb(252, 6, 6);
+  border: 2px solid white;
+  border-radius: 21px;
+
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.players>h1{
+  color: rgb(232, 248, 5);
+}
+
+   
+
+.diceRoll{
+  text-align: center;
+}
+.players span{
+  font-size: 6rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.App{
+  height: 100vh;
+  background-image: url(./assets/images/back.ludo);
+  background-repeat: no-repeat center center-cover;
+  position: relative;
+  /* z-index: 999; */
+}
+/* #modal-root {
+  position: relative;
+  z-index: 999;
+}
+.modal {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  z-index: 99999;
+} */
+.model{
+  /* background-color: rgb(29, 43, 43);
+ */
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: rgb(167, 163, 163);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.model-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: azure;
+  position: relative;
+}
+.onclose{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
